@@ -207,8 +207,6 @@ Postman collection:
 ![Search & list view](docs/dash-search.png)
 
 
-- To add more screenshots, place images in `docs/` (or `docs/screenshots/`) and add Markdown image links like `![alt text](docs/your-image.png)`.
-
 ---
 
 ## Where to look in the code
