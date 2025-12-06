@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+.rich-text-editor .ql-toolbar {
+  border: 1px solid #d1d5db;
+  border-radius: 8px 8px 0 0;
+  background: #f9fafb;
+}
+.rich-text-editor .ql-container {
+  border: 1px solid #d1d5db;
+  border-top: none;
+  border-radius: 0 0 8px 8px;
+  min-height: 200px;
+  font-size: 14px;
+}
+.rich-text-editor .ql-editor {
+  min-height: 200px;
+}
+.rich-text-editor .ql-editor.ql-blank::before {
+  font-style: italic;
+  color: #9ca3af;
+}
+
+.nav-scroll::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+.nav-scroll {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+@keyframes progress {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0%;
+  }
+}
+
+.animate-progress {
+  animation: progress 2.5s linear forwards;
+}
